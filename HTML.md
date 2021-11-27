@@ -2,6 +2,8 @@
 
 - HTML is a markup language that defines the structure of a web page. It is interpreted by your web browser (Safari, Google Chrome, Firefox, etc.) in order to display content on your screen.
 - Let’s get started by writing a simple HTML file!
+
+```
     <!DOCTYPE html>
     <html lang="en">
         <head>
@@ -11,6 +13,8 @@
             Hello, world!
         </body>
     <html>
+```
+
 - When we open up this file in our browser, we get:
 ![Hello Page](https://cs50.harvard.edu/web/2020/notes/0/images/hello0.png)
 
@@ -33,8 +37,7 @@
 
 - There are many HTML elements you may want to use to customize your page, including headings, lists, and bolded sections. In this next example, we’ll see a few of of these in action.
 - One more thing to note: `<!-- -->` gives us a comment in HTML, so we’ll use that below to explain some of the elements.
-
-
+```
     <!DOCTYPE html>
     <html lang="en">
         <head>
@@ -96,7 +99,7 @@
             </table>
         </body>
     <html>
-
+```
 This page, when rendered, looks something like this:
 
 ![](https://paper-attachments.dropbox.com/s_8EE11E0529CFF25BFDAC5DE09745448607A2C10B8CBB73085205F4593973A66D_1599663599697_Screen+Shot+2020-09-09+at+3.59.04+PM.png)
@@ -107,7 +110,7 @@ This page, when rendered, looks something like this:
 
 - Another set of elements that is really important when creating a website is how to collect information from users. You can allow users to enter information using an HTML form, which can contain several different types of input. Later in the course, we’ll learn about how to handle information once a form has been submitted.
 - Just as with other HTML elements, there’s no need to memorize these, and W3 Schools is a great resource for learning about them!
-- 
+```
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -130,7 +133,7 @@ This page, when rendered, looks something like this:
     </body>
     </html>
 ![form](https://cs50.harvard.edu/web/2020/notes/0/images/form.png)
+```
 
-
-⏭️ [CSS](https://www.dropbox.com/scl/fi/heyj468i5we8xm5gjzti0/CSS.paper?dl=0&rlkey=zzpuxwva50iw1t3cibzlgtwdn)
+⏭️ [CSS](#)
 
